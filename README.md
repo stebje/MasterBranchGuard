@@ -1,6 +1,6 @@
 # MasterBranchGuard
 
-> A GitHub App built with [Probot](https://github.com/probot/probot) that This app automatically protects the master branch when new repositories are created.
+> A GitHub App built with [Probot](https://github.com/probot/probot) that automatically protects the master branch when new repositories are created.
 
 ## Setup
 
