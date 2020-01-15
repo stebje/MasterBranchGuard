@@ -1,7 +1,8 @@
 # MasterBranchGuard
 
 A GitHub App built with [Probot](https://github.com/probot/probot) that automatically protects the master branch when new repositories are created.
-You are notified with an @mention in an issue within the repository that outlines the protections that were added.
+
+An issue is created within the repository with an @mention and details on the protections added.
 
 ## Getting Started
 
@@ -9,9 +10,6 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Prerequisites
 
-What things you need to install the software and how to install
-
-(Follow instructions to install probot?)
 Install node.js 
 
 ```
@@ -20,15 +18,28 @@ Give examples
 
 ### Installing
 
-A step by step series of examples that tell you how to get a development env running
+**Option 1 (for dev/testing on local machine)**
 
 ```sh
-# Install dependencies
+# Download or clone repo to local repository
+git clone
+
+# Navigate to local repository and install dependencies from terminal
 npm install
 
 # Run the bot
 npm start
+# or
+npm run dev
 ```
+
+// Option 2 pending deployment to GitHub Marketplace
+
+***Option 2 (for direct installation as GitHub app)***
+
+*1. Go to the [MasterBranchGuard app page](https://github.com/marketplace/MasterBranchGuard)*
+
+*2. Follow the instructions to install the app*
 
 ## Contributing
 
@@ -38,7 +49,7 @@ For more, check out the [Contributing Guide](CONTRIBUTING.md).
 
 ## Authors
 
-* **Steffen Bjerkenås** - [steffenba](https://github.com/steffenba/)
+**Steffen Bjerkenås** - [steffenba](https://github.com/steffenba/)
 
 ## License
 
