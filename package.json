@@ -1,7 +1,7 @@
 {
   "name": "master-branch-guard",
   "version": "1.0.0",
-  "private": true,
+  "private": false,
   "description": "This app automatically protects the master branch when new repositories are created.",
   "author": "Steffen Bjerkenås <steffenbj@hotmail.com>",
   "license": "ISC",
