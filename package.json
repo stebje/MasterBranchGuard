@@ -1,5 +1,5 @@
 {
-  "name": "MasterBranchGuard",
+  "name": "master-branch-guard",
   "version": "1.0.0",
   "private": true,
   "description": "This app automatically protects the master branch when new repositories are created.",
@@ -9,8 +9,8 @@
   "homepage": "https://github.com/Professional-Services-DEV/MasterBranchGuard",
   "bugs": "https://github.com/Professional-Services-DEV/MasterBranchGuard/issues",
   "keywords": [
-    "probot",
     "github",
+    "probot",
     "probot-app"
   ],
   "scripts": {
