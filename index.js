@@ -1,9 +1,14 @@
 /*
-* This app will
-* 1.Automatically protect the master branch of a newly created repo
-* 2.Automatically create an issue which includes the details of the protections added, and a @mention
-* of the current GitHub user
-* */
+This app will
+- Automatically protect the master branch of a newly created repo
+- Automatically create an issue which includes the details of the protections added, and a @mention
+of the current GitHub user
+*/
+
+/* TODO
+- Refactor functions, define outside of app
+- Exception handling for octokit/probot responses
+*/
 
 module.exports = app => {
   app.log('The app is up and running!')
@@ -21,7 +26,7 @@ module.exports = app => {
 
     // Define protection parameters
     app.log('Defining protection parameters.')
-    var branchProtections = {
+    const branchProtections = {
       owner: repoOwnerLogin,
       repo: repoName,
       branch: repoDefaultBranch,
@@ -33,17 +38,17 @@ module.exports = app => {
       restrictions: null
     }
 
-    // Stringify branchProtections to be used in issues
-    var branchProtectionsString = JSON.stringify(branchProtections)
+    // Stringify and prettify branchProtections to be used in issue body with markdown
+    app.log('Prettifying protection settings for markdown.')
+    const branchProtectionsText = '```json' + '\n' + JSON.stringify(branchProtections, null, 4) + '\n' + '```'
 
-    // Apply protection parameters on branch
     app.log('Applying protections on branch.')
-    context.github.repos.updateBranchProtection(branchProtections)
+    await context.github.repos.updateBranchProtection(branchProtections)
 
-    // Create issue in repo, populate body with @mention + previous and current protection rules
+    // Create issue in repo, populate body with @mention + previous and protection rules added
     app.log('Creating issue in repo with @mention of user.')
-    const issueTitle = `@${repoSenderLogin}, protections have been added to ${repoDefaultBranch}!`
-    const issueBody = '**Your master branch was updated with these protections;**' + '\n' + '```' + 'json' + '\n' + `${branchProtectionsString}` + '\n' + '```'
-    context.github.issues.create({ owner: repoOwnerLogin, repo: repoName, title: issueTitle, body: issueBody })
+    const issueTitle = `Hurray @${repoSenderLogin}, protections were added to your *${repoDefaultBranch}* branch!`
+    const issueBody = `**Your *${repoDefaultBranch}* branch was updated with these protections;** \n ${branchProtectionsText}`
+    await context.github.issues.create({ owner: repoOwnerLogin, repo: repoName, title: issueTitle, body: issueBody })
   })
 }
