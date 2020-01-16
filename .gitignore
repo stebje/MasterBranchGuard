@@ -8,3 +8,4 @@ coverage
 summary.md
 app_privatekey
 /.env.backup
+.idea
