@@ -22,7 +22,7 @@ Give examples
 
 ```sh
 # Download or clone repo to local repository
-git clone
+git clone https://github.com/steffenba/MasterBranchGuard.git
 
 # Navigate to local repository and install dependencies from terminal
 npm install
