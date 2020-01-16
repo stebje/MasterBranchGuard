@@ -31,13 +31,13 @@ npm start
 npm run dev
 ```
 
-// Option 2 pending deployment to GitHub Marketplace
+// Option 2 pending deployment [Probot featured apps](https://probot.github.io/apps/)
 
-***Option 2 (for direct installation as GitHub app)***
+***Option 2 (for )***
 
-*1. Go to the [MasterBranchGuard app page](https://github.com/marketplace/MasterBranchGuard)*
+*1. Go to the [app's page](https://probot.github.io/apps/) on Probot and follow the instructions*
 
-*2. Follow the instructions to install the app*
+*2. Follow the instructions and make sure you select the organization(s) that you want MasterBranchGuard added to*
 
 ## Contributing
 
