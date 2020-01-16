@@ -35,9 +35,9 @@ npm run dev
 
 (***Note***: *Not yet possible, pending deployment to [Probot featured apps](https://probot.github.io/apps/)*)
 
-*1. Go to the [app's page](https://probot.github.io/apps/) on Probot and follow the instructions*
+1. Go to the [app's page](https://probot.github.io/apps/) on Probot and follow the instructions*
 
-*2. Follow the instructions and make sure you select the organization(s) that you want MasterBranchGuard added to*
+2. Follow the instructions and make sure you select the organization(s) that you want MasterBranchGuard added to
 
 ## Contributing
 
