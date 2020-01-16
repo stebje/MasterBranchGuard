@@ -31,9 +31,9 @@ npm start
 npm run dev
 ```
 
-// Option 2 pending deployment [Probot featured apps](https://probot.github.io/apps/)
+**Option 2 (for direct install to organization)** 
 
-***Option 2 (for direct install to organization)***
+(***Note***: *Not yet possible, pending deployment to [Probot featured apps](https://probot.github.io/apps/)*)
 
 *1. Go to the [app's page](https://probot.github.io/apps/) on Probot and follow the instructions*
 
