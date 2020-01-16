@@ -1,3 +1,4 @@
+!()[mbg_logo.png] 
 # MasterBranchGuard
 
 A GitHub App built with [Probot](https://github.com/probot/probot) that automatically protects the master branch when new repositories are created.
@@ -55,6 +56,7 @@ For more, check out the [Contributing Guide](CONTRIBUTING.md).
 ## Acknowledgments
 
 Logo created via https://www.freelogodesign.org/
+Probot [community](https://probot.github.io/community/)
 
 ## Future improvements
 
