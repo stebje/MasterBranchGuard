@@ -54,8 +54,8 @@ For more, check out the [Contributing Guide](CONTRIBUTING.md).
 
 ## Acknowledgments
 
-*Logo created via https://www.freelogodesign.org/
+Logo created via https://www.freelogodesign.org/
 
 ## Future improvements
 
-*Logo created via https://www.freelogodesign.org/
+See [FUTURE_IMPROVEMENTS.md](FUTURE_IMPROVEMENTS.md)
