@@ -3,9 +3,9 @@ npm-debug.log
 *.pem
 !mock-cert.pem
 .env
+.env.example
 package-lock.json
 coverage
 summary.md
 app_privatekey
 /.env.backup
-/.idea
