@@ -10,11 +10,8 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Prerequisites
 
-Install node.js 
-
-```
-Give examples
-```
+You will need;
+* An [organization](https://github.com/organizations/plan) that can be used to trigger events to the app
 
 ### Installing
 
@@ -57,4 +54,8 @@ For more, check out the [Contributing Guide](CONTRIBUTING.md).
 
 ## Acknowledgments
 
-* Logo created via https://www.freelogodesign.org/
+*Logo created via https://www.freelogodesign.org/
+
+## Future improvements
+
+*Logo created via https://www.freelogodesign.org/
