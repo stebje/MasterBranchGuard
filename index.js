@@ -47,7 +47,7 @@ module.exports = app => {
 
     // Create issue in repo, populate body with @mention + previous and protection rules added
     app.log('Creating issue in repo with @mention of user.')
-    const issueTitle = `Hurray @${repoSenderLogin}, protections were added to your *${repoDefaultBranch}* branch!`
+    const issueTitle = `Hurray @${repoSenderLogin}, protections were added to your ${repoDefaultBranch} branch!`
     const issueBody = `**Your *${repoDefaultBranch}* branch was updated with these protections;** \n ${branchProtectionsText}`
     await context.github.issues.create({ owner: repoOwnerLogin, repo: repoName, title: issueTitle, body: issueBody })
   })
