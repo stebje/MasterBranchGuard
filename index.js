@@ -5,11 +5,6 @@ This app will
 of the current GitHub user
 */
 
-/* TODO
-- Refactor functions, define outside of app
-- Exception handling for octokit/probot responses
-*/
-
 module.exports = app => {
   app.log('The app is up and running!')
 
