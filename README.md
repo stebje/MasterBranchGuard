@@ -13,11 +13,15 @@ These instructions will get you a copy of the project up and running on your loc
 
 You will need;
 * An [organization](https://github.com/organizations/plan) that can be used to trigger events to the app
+* [Node.js](https://nodejs.org/en/)
 
 ### Installing
 
 **Option 1 (for dev/testing on local machine)**
 
+1. For documentation on setting up a local environment please see [Probot docs](https://probot.github.io/docs/)
+
+2. Run these commands in your favorite terminal
 ```sh
 # Download or clone repo to local repository
 git clone https://github.com/steffenba/MasterBranchGuard.git
