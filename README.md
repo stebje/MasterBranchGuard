@@ -51,7 +51,7 @@ For more, check out the [Contributing Guide](CONTRIBUTING.md).
 
 ## Authors
 
-**Steffen Bjerkenås** - [steffenba](https://github.com/steffenba/)
+**Steffen Bjerkenås** - [stebje](https://github.com/stebje/)
 
 ## License
 
