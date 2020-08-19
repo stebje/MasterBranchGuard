@@ -3,8 +3,6 @@
 </p>
 <p align="center">Automatically protect your default branch<p>
 
----
-
 # Intro
 
 MasterBranchGuard is a GitHub App built with [Probot](https://github.com/probot/probot) that automatically protects the master branch when new repositories are created.
